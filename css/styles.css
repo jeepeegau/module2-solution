@@ -1,0 +1,94 @@
+<style>
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section {
+  position: relative;
+  height: 300px;
+  float: left;
+ }
+
+h2 {
+  position: absolute;
+  border: 1px solid black;
+  width: 30%;
+  text-align: center;
+  top: -1px;
+  right: -1px;
+  margin-top:unset;
+}
+
+#chicken{
+  background-color:rgb(210,148,147);
+}
+
+#beef{
+  background-color:rgb(192,70,67);
+  color: white;
+}
+
+#sushi{
+  background-color:rgb(224,207,147);
+}
+
+header{
+  position:relative;
+  background-color: rgb(148,148,148);
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  width: 90%;
+  height: 50px;
+  padding: 10px 10px 10px 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article {
+  background-color: rgb(148,148,148);
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 90%;
+  height: 150px;
+  padding: 10px 10px 10px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Helvetica;
+}
+
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** DESKTOP **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+/********** TABLET **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+/********** MOBILE **********/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+</style>
